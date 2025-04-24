@@ -38,20 +38,14 @@ nav a:hover, nav a:focus {
     padding: 0.75rem 1rem;
     color: #4a5568;
     text-decoration: none;
-    border-bottom: 1px solid #edf2f7;
 }
 
-#mobile-menu a:last-child {
-    border-bottom: none;
+#mobile-menu a:hover {
+    background-color: #f3f4f6;
 }
 
-#mobile-menu a:hover, #mobile-menu a:focus {
-    background-color: #edf2f7;
-    color: #4c51bf;
-}
-
-/* Gaya untuk kartu proyek */
+/* Gaya tambahan untuk efek hover pada kartu proyek */
 .portfolio-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
