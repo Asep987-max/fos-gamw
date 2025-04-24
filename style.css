@@ -1,0 +1,57 @@
+/* Gaya umum untuk body dan font */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Gaya untuk tautan navigasi */
+nav a {
+    text-decoration: none;
+    color: #4a5568; /* Warna teks abu-abu */
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem; /* Sedikit pembulatan */
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #edf2f7; /* Warna latar belakang saat hover */
+    color: #4c51bf; /* Warna teks saat hover */
+}
+
+/* Gaya untuk mobile menu */
+#mobile-menu {
+    display: none; /* Awalnya disembunyikan */
+    background-color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    top: 4rem; /* Sesuaikan sesuai kebutuhan */
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+#mobile-menu.active {
+    display: block; /* Tampilkan menu */
+}
+
+#mobile-menu a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #4a5568;
+    text-decoration: none;
+    border-bottom: 1px solid #edf2f7;
+}
+
+#mobile-menu a:last-child {
+    border-bottom: none;
+}
+
+#mobile-menu a:hover, #mobile-menu a:focus {
+    background-color: #edf2f7;
+    color: #4c51bf;
+}
+
+/* Gaya untuk kartu proyek */
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
